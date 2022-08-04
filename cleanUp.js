@@ -58,9 +58,13 @@ var sum = num1 + num2;
 
   console.log(`the average is: ${avg}`.)
   }
-// My code: I was not able to correctly find how to fix the code above but with some Google research I found another way
-// to write code in JS that would output the average.
-const arr = [1, 2];
-const average = arr.reduce((a, b) => a + b, 0) / arr.length;
 
-console.log(average)
+// My code: the example above did not have a call function and on line 59 the period was outside the `.
+function average(num1, num2)
+  {
+var sum = num1 + num2;
+    var avg = sum / 2;
+
+  console.log(`the average is: ${avg}.`)
+  }
+  average(1, 2)
